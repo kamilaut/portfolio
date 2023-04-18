@@ -1,69 +1,159 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/wikipedia.png" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+    <link
+      href="css/workstyle.css"
+      rel="This is the link to the css stylesheet file"
+      type="text/css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Work</title>
+  </head>
 
-  <link rel="shortcut icon" href="img/wikipedia.png"/>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-  <link href="css/style.production.css" rel="This is the link to the css stylesheet file" type="text/css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;900&display=swap" rel="stylesheet">
-  <title>Work</title>
-</head>
+  <body>
+    <header class="page-header">
+      <nav>
+        <a href="index.html">Home</a>
 
-<body>
-  <header class="page-header">
-    <img class="page-header_item img-responsive" src="./img/logo.svg"
-    alt="logo Icon" style="max-width:150px">
+        <a href="work.html">Work</a>
 
-    <nav class="page-header_item">
-      <ul role="menubar" class="navigation-list">
-        <li role="presentation">
-          <a role="menuitem" href="index.html" class="navigation-list__item">Home</a>
-        </li>
-        <li role="presentation">
-          <a role="menuitem" href="about_Kamila.html" class="navigation-list__item navigation-list__item--active">About Me</a>
-        </li>
-        <li role="presentation">
-          <a role="menuitem" href="work.html" class="navigation-list__item">Work</a>
-        </li>
-        <li role="presentation">
-          <a role="menuitem" href="contact_Kamila.html" class="navigation-list__item">Contact</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+        <a href="contact_Kamila.html">Contact</a>
+      </nav>
+    </header>
 
-  <main>
-    <h1>6 Facts About Your Brain</h1>
-    <div class="grid-container">
-      <div class="grid-item">Sixty percent of the human brain is made of fat.</div>
-      <div class="grid-item">Your brain isn't fully formed until age 25.</div>
-      <div class="grid-item">Brain information travels up to an impressive 268 miles per hour.</div>
-      <div class="grid-item">On average, your spinal cord stops growing at 4 years old.</div>
-      <div class="grid-item">It’s a myth that you only use 10 percent of your brain. You actually use all of it. (Yes, even when you are sleeping.)</div>
-      <div class="grid-item">The human brain can generate about 23 watts of power (enough to power a lightbulb).</div>
-    </div>
-  </main>
+    <main class="responsive-wrapper">
+      <div class="page-title">
+        <h1>Projects</h1>
+      </div>
+      <div class="magazine-layout">
+        <div class="magazine-column">
+          <article class="article">
+            <h2 class="article-title article-title--medium">
+              <a href="#" class="article-link"
+                >Random List App
+                </a>
+            </h2>
+            <div class="article-creditation">
+              <p>
+                jQuery project. A small listing app.
+                The following technologies are used: HTML ●CSS ●JavaScript● jQuery
+              </p>
+              <figure class="article-img">
+              </figure>
+            </div>
+            <img
+            src="img/list_app.JPG"
+          />
+          <mark class="mark"> <a href="https://kamilaut.github.io/Random-List-App/" target="_blank"> deployment </a>
+          </mark>
+          </article>
+        </div>
+        <div class="magazine-column">
+            <h2 class="article-title article-title--medium">
+              <a href="#" class="article-link">Mirror Stage</a>
+            </h2>
+            <div class="article-excerpt">
+              <p>
+                A client-side built with React and Redux for an app called
+                myFlix based on the server-side REST API and database. The
+                interface for using to make requests to and receiving responses
+                from the server-side. The client-side of this app includes
+                several interface views (built using the React library) that
+                handle data through the REST API endpoints application. Both
+                client-side and server-side built with MERN (MongoDB, Express,
+                React, and Node.js) stack.
+              </p>
+            </div>
+            <div class="article-author">
+              <div class="article-author-info">
+                <dl>
+                  <dt>Features</dt>
+                  <dd>
+                    ● A single-page application (SPA) ● State routing for
+                    navigation between views and share URLs ● Gives users the
+                    option to filter movies using a “search” feature ●Parcel as
+                    its build tool ●Written using the React library and in
+                    ES2015+ ●Uses Bootstrap as a UI library for styling and
+                    responsiveness ●Contains function components ●Hosted online
+                    ●Uses React Redux for state management
+                  </dd>
+                </dl>
+              </div>
+            </div>
+          <figure class="article-img">
+            <img
+              src="img/mirror.JPG"
+            />
+          </figure>
+          <mark class="mark"> <a href="https://mirror-stage.netlify.app/" target="_blank"> deployment </a>
+          </mark>
+        </div>
+        <div class="magazine-column">
+          <article class="article">
 
-  <footer>
-    <h2>Find me on</h2>
-    <a href="https://github.com/" target="_blank">
-      <img src="img/github.svg" alt="Github" width="30" height="30">
-    </a>
+            <h2 class="article-title article-title--small">
+              <a href="#" class="article-link"
+                >My first js app <mark class="mark mark--secondary"> "pokedex"</mark>.
+                A small web application using HTML, CSS, and JavaScript that loads data from the Pokémon API.</a>
+            </h2>
+            
+            <div class="article-creditation">
+              <p>The following technologies are used: HTML●CSS●JavaScript</p>
+            </div>
+            <figure class="article-img">
 
-    <a href="https://de.linkedin.com/" target="_blank">
-      <img src="img/in.svg" alt="LinkedIn" width="30" height="30">
-    </a>
+          </article>
+          <img
+          src="img/pokedex.JPG"
+        />
+      </figure>
+      <mark class="mark"> <a href="https://kamilaut.github.io/myfirst-js-app/" target="_blank"> deployment </a>
+      </mark>
+          <article class="article">
 
-    <a href="https://twitter.com/" target="_blank">
-      <img src="img/twitter.svg" alt="Twitter" width="30" height="30">
-    </a>
-  </footer>
+            <h2 class="article-title article-title--small">
+              <a href="#" class="article-link"
+                >Meet App</a>
+            </h2>
+            <div class="article-creditation">
+              <p>A serverless, progressive web application (PWA) with React using a
+                test-driven development (TDD) technique. The application uses the Google
+                Calendar API to fetch upcoming events.</p>
+            </div>
+          </article>
+          <mark class="mark"> <a href="https://kamilaut.github.io/meet/" target="_blank"> deployment </a>
+          </mark>
+        </div>
+    </main>
 
-  <script src="js/tota11y.min.js"></script>
-</body>
+    <footer class="page-footer">
+      <a href="https://de.linkedin.com/" target="_blank">
+        <img src="img/in.svg" alt="LinkedIn" width="30" height="30" />
+      </a>
+
+      <a href="https://github.com/kamilaut" target="_blank">
+        <img src="img/github.svg" alt="Github" width="30" height="30" />
+      </a>
+
+      <a href="https://www.instagram.com/polutona_/" target="_blank">
+        <img src="img/87390.png" alt="Insta" width="30" height="30" />
+      </a>
+    </footer>
+
+    <script src="js/tota11y.min.js"></script>
+  </body>
 </html>
