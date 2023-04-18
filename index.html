@@ -1,63 +1,69 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/wikipedia.png" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+    <link
+      href="css/style.production.css"
+      rel="This is the link to the css stylesheet file"
+      type="text/css"
+    />
 
-  <link rel="shortcut icon" href="img/wikipedia.png"/>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-  <link href="css/style.production.css" rel="This is the link to the css stylesheet file" type="text/css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;900&display=swap" rel="stylesheet">
-  <title>home</title>
-</head>
+    <title>home</title>
+  </head>
 
-<body>
-  <header class="page-header">
-    <img class="page-header_item img-responsive " src="./img/logo.svg"
-    alt="logo Icon" style="max-width:150px">
+  <body>
+    <header class="page-header">
+      <nav>
+        <a href="index.html">Home</a>
 
-    <nav class="page-header_item">
-      <ul role="menubar" class="navigation-list">
-        <li role="presentation">
-          <a role="menuitem" href="index.html" class="navigation-list__item">Home</a>
-        </li>
-        <li role="presentation">
-          <a role="menuitem" href="about_Kamila.html" class="navigation-list__item navigation-list__item--active">About Me</a>
-        </li>
-        <li role="presentation">
-          <a role="menuitem" href="work.html" class="navigation-list__item">Work</a>
-        </li>
-        <li role="presentation">
-          <a role="menuitem" href="contact_Kamila.html" class="navigation-list__item">Contact</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+        <a href="work.html">Work</a>
 
-  <main class="profile">
-    <img class="profile_portrait" src="https://images.squarespace-cdn.com/content/v1/5e30656769f2bc47ce5d8bcd/ed620823-8bee-4996-862b-df90c4d39b59/_MG_2968+copy.jpg?format=300w" alt="Profile image">
-    <div class="profile__description">
-      <h1>Hello World!</h1>
-      <p>My name is Kamila. <br>
-        I am a <span style="background-color:black; color:yellow;">photographer</span> and <span style="background-color:black; color:yellow;">web</span> developer <br> based in Berlin.</p>
-        <a href="https://polutona.com" target="_blank">My Portfolio</a>
+        <a href="contact_Kamila.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="profile">
+      <img class="profile_portrait" src="img/photo.jpg" />
+      <div class="profile__description">
+        <h1>Hello World!</h1>
+        <p>
+          My name is Kamila. <br />
+          I'm a
+          <span style="background-color: turquoise; color: #3f9696">
+            <a href="https://polutona.com" target="_blank"> photographer </a>
+          </span>
+          and
+          <span style="background-color: turquoise; color: #3f9696">
+            <a href="https://github.com/kamilaut" target="_blank">
+              web developer
+            </a>
+          </span>
+          <br />
+          based in Frankfurt.
+        </p>
       </div>
     </main>
 
-    <footer>
-      <h2>Find me on</h2>
-      <a href="https://github.com/" target="_blank">
-        <img src="img/github.svg" alt="Github" width="30" height="30">
-      </a>
-
+    <footer class="page-footer">
       <a href="https://de.linkedin.com/" target="_blank">
-        <img src="img/in.svg" alt="LinkedIn" width="30" height="30">
+        <img src="img/in.svg" alt="LinkedIn" width="30" height="30" />
       </a>
 
-      <a href="https://twitter.com/" target="_blank">
-        <img src="img/twitter.svg" alt="Twitter" width="30" height="30">
+      <a href="https://github.com/kamilaut" target="_blank">
+        <img src="img/github.svg" alt="Github" width="30" height="30" />
+      </a>
+
+      <a href="https://www.instagram.com/polutona_/" target="_blank">
+        <img src="img/87390.png" alt="Insta" width="30" height="30" />
       </a>
     </footer>
+  </body>
+</html>

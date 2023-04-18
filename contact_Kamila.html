@@ -1,89 +1,94 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/wikipedia.png" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+    <link
+      href="css/style.production.css"
+      rel="This is the link to the css stylesheet file"
+      type="text/css"
+    />
 
-  <link rel="shortcut icon" href="img/wikipedia.png"/>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-  <link href="css/style.production.css" rel="This is the link to the css stylesheet file" type="text/css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;900&display=swap" rel="stylesheet">
-  <title>contact Kamila</title>
-</head>
+    <title>contact Kamila</title>
+  </head>
 
-<body>
-  <header class="page-header">
-    <img class="page-header_item img-responsive" src="./img/logo.svg"
-    alt="logo Icon" style="max-width:150px">
+  <body>
+    <header class="page-header">
+      <nav>
+        <a href="index.html">Home</a>
 
-    <nav class="page-header_item">
-      <ul role="menubar" class="navigation-list">
-        <li role="presentation">
-          <a role="menuitem" href="index.html" class="navigation-list__item">Home</a>
-        </li>
-        <li role="presentation">
-          <a role="menuitem" href="about_Kamila.html" class="navigation-list__item navigation-list__item--active">About Me</a>
-        </li>
-        <li role="presentation">
-          <a role="menuitem" href="work.html" class="navigation-list__item">Work</a>
-        </li>
-        <li role="presentation">
-          <a role="menuitem" href="contact_Kamila.html" class="navigation-list__item">Contact</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+        <a href="work.html">Work</a>
 
-  <main>
-    <h1>Contact</h1>
-    <div>
-      Kamila<br>
-      Street number<br>
-      59382 Berlin, Deutschland<br>
-      <br>
-      <a href="tel:+4965956539">Tel. +49 65956539</a><br>
-      Mail <a href="mailto:randomemail@gmail.com"> E-Mail Contact</a><br>
-    </div>
+        <a href="contact_Kamila.html">Contact</a>
+      </nav>
+    </header>
 
-    <div>
-      <form action="/action_page.php">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <main>
+      <h1>Contact</h1>
+      <div>
+        Kamila<br />
+        Frankfurt, Deutschland<br />
+        <br />
+        <a href="tel:+4965956539">Tel. +49 65956539</a><br />
+        <a href="mailto:kamila.utiukova@gmail.com"> E-Mail</a><br />
+      </div>
 
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        <label for="user_email" class="standard-label">E-mail*:</label>
-        <input id="user_email" type="email" required>
+      <div>
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
 
-        <label for="user_tel" class="standard-label">Tel:</label>
-        <input id="user_tel" type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+          <label for="user_email" class="standard-label">E-mail*:</label>
+          <input id="user_email" type="email" required />
 
-        <label for="user_message" class="standard-label">Message* (max 240 char):</label>
-        <textarea id="user_message" maxlength="240" required></textarea>
+          <label for="user_tel" class="standard-label">Tel:</label>
+          <input id="user_tel" type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" />
 
-        <button class="button button4" type="submit" value="send">Send</button>
-      </form>
-    </div>
-  </main>
+          <label for="user_message" class="standard-label"
+            >Message* (max 240 char):</label
+          >
+          <textarea id="user_message" maxlength="240" required></textarea>
 
-  <footer>
-    <h2>Find me on</h2>
-    <a href="https://github.com/" target="_blank">
-      <img src="img/github.svg" alt="Github" width="30" height="30">
-    </a>
+          <button class="button button4" type="submit" value="send">
+            Send
+          </button>
+        </form>
+      </div>
+    </main>
 
-    <a href="https://de.linkedin.com/" target="_blank">
-      <img src="img/in.svg" alt="LinkedIn" width="30" height="30">
-    </a>
+    <footer class="page-footer">
+      <a href="https://de.linkedin.com/" target="_blank">
+        <img src="img/in.svg" alt="LinkedIn" width="30" height="30" />
+      </a>
 
-    <a href="https://twitter.com/" target="_blank">
-      <img src="img/twitter.svg" alt="Twitter" width="30" height="30">
-    </a>
-  </footer>
+      <a href="https://github.com/kamilaut" target="_blank">
+        <img src="img/github.svg" alt="Github" width="30" height="30" />
+      </a>
 
-  <script src="js/tota11y.min.js"></script>
-</body>
+      <a href="https://www.instagram.com/polutona_/" target="_blank">
+        <img src="img/87390.png" alt="Insta" width="30" height="30" />
+      </a>
+    </footer>
+
+    <script src="js/tota11y.min.js"></script>
+  </body>
 </html>
