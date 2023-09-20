@@ -488,46 +488,40 @@ section {
 .profile {
   max-width: 700px;
   margin: 0 auto;
-  padding: 50px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  padding: 50px 20px; /* Adjust padding for smaller screens */
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Allow content to wrap on smaller screens */
 }
 
 .profile_portrait {
-  width: 250px;
+  width: 100%; /* Make the portrait image responsive */
+  max-width: 250px; /* Limit the maximum width */
   height: auto;
-  float: left;
-  margin-right: 40px;
+  margin-right: 20px; /* Adjust margin for smaller screens */
   border-radius: 50%;
 }
 
 form {
-  margin: 30px auto;
+  margin: 20px auto; /* Adjust margin for smaller screens */
 }
 
 form > div {
-  margin-bottom: 20px;
+  margin-bottom: 10px; /* Adjust spacing for smaller screens */
 }
 
 form * {
   width: 100%;
 }
 
-@media all and (min-width: 500px) and (max-width: 750px){
-  .grid-container {
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    border-radius: 4px;
+@media (min-width: 500px) and (max-width: 750px) {
+  .profile_portrait {
+    max-width: 150px; /* Adjust the portrait size for medium-sized screens */
   }
 }
-@media all and (max-width: 750px) {
+
+@media (max-width: 750px) {
   .grid-container {
     grid-gap: 10px;
     border-radius: 4px;
@@ -542,8 +536,7 @@ form * {
   }
   .magazine-layout {
     grid-template-columns: 1fr;
-    flex-wrap: wrap;
-  justify-content: space-between;
+    justify-content: space-between;
   }
 }
 
@@ -572,6 +565,5 @@ div {
 /* This is just to transition when you change the viewport size. */
 * {
   transition: all 3s ease;
-transition-duration: 5s;
+  transition-duration: 5s;
 }
-
